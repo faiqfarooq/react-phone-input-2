@@ -45,68 +45,6 @@ See the [open issues](https://github.com/magnusmage/creatachain-web-wallet/issue
 
 <!-- CONTRIBUTING -->
 
-## Folder Structure Conventions
-
--   `src:` This folder will contain all of your source code files.
--   `assets:` contains all the media and font assets used in the project.
--   `components:` This folder will contain reusable UI components that you can use across your application.
--   `routes:` This file will contain all routes.
--   `layout:` This folder will contain layout components that define the overall structure of your application.
--   `view:` This folder will contain your application's pages. Each page should have its own folder that contains a JavaScript file with the same name as the folder.
--   `redux:` This folder will contain all of your Redux store-related files.
--   `theme:` This folder will contain all of your MUI theme-related files, such as your palletes, typography, and overrides.variables, and schema files.
-
-**Use short capitalized names for all JavaScript file, while all other files and folders name should be in lowercase.**
-
-## A typical top-level directory layout
-
-```
- src
-    │   App.js
-    │   App.test.js
-    │   index.js
-    │   reportWebVitals.js
-    │   routes.js
-    │
-    ├───assets
-    │   ├───fonts
-    │   └───images
-    │
-    ├───components
-    │   ├───footer
-    │   │       Footer.js
-    │   │       index.js
-    │   │
-    │   └───header
-    │           Header.js
-    │           index.js
-    │
-    ├───layouts
-    │       index.js
-    │       MainLayout.js
-    │
-    ├───redux
-    │   │   actions.js
-    │   │   reducer.js
-    │   │   Store.js
-    │
-    ├───theme
-    │   │   index.js
-    │   │   palette.js
-    │   │   typography.js
-    │   │
-    │   └───overrides
-    │           index.js
-    │           MuiButton.js
-    │           MuiTextField.js
-    │
-    └───view
-        │   index.js
-        │
-        └───dashboard
-                index.js
-                ViewDashboard.js
-```
 
 ## Contributing
 
