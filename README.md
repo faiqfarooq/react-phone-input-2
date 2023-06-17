@@ -74,6 +74,3 @@ By following a consistent commit message convention, developers can efficiently 
 
 
 
-```
-Copyright © 2021 — creatachain.com
-```
