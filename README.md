@@ -19,7 +19,7 @@ Follow these commands to run project successfully.
 1. Clone the repo
 
     ```sh
-    git clone https://github.com/magnusmage/creata-launch-a-chain
+    git clone https://github.com/faiqfarooq/react-phone-input-2.git
     ```
 
 2. Install packages in root directory
