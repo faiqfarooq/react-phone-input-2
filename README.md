@@ -36,18 +36,13 @@ Follow these commands to run project successfully.
 
 <!-- USAGE  -->
 
-## Usage
+## Demo
+1. ![My Image](src/assets/1.png)
+2. ![My Image](src/assets/first.png)
+3. ![My Image](src/assets/validation.png)
+4. ![My Image](src/assets/qq.png)
+5. ![My Image](src/assets/console.png)
 
-For additional usage read docs.
-
-<!-- ROADMAP -->
-
-<!-- ## Roadmap -->
-
-<!--
-See the [open issues](https://github.com/magnusmage/creatachain-web-wallet/issues) for a list of proposed features (and known issues). -->
-
-<!-- CONTRIBUTING -->
 
 
 ## Contributing
@@ -75,7 +70,7 @@ For commit use prefixes in commit messages to provide context and clarity about 
 -   `Docs:` for documentation updates
 
 By following a consistent commit message convention, developers can efficiently track changes to the code and easily understand the history of modifications made over time.
-![My Image](src/assets/1.png)
+
 
 
 
