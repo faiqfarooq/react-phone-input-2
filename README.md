@@ -61,7 +61,7 @@ Follow these commands to run project successfully.
 
 ## Live Demo
 
-[Click Here]([https://github.com/magnusmage/creata-launch-a-chain](https://react-phone-input-2.vercel.app/))
+[Click Here to see live ](https://react-phone-input-2.vercel.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
