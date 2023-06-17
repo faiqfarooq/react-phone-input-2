@@ -15,18 +15,12 @@
   height: 10rem !important;
 }
 
-/* Placeholder */
+
 .react-tel-input ::placeholder {
   color: #a4a4a4 !important;
   font-size: 14px;
 }
 
-/* .react-tel-input .country-list .country:hover {
-  background: rgba(243, 250, 255, 1) !important;
-}
-.react-tel-input .country-list .country.highlight {
-  background: rgba(243, 250, 255, 1) !important;
-} */
 
 .country-list::-webkit-scrollbar {
   width: 10px !important;
