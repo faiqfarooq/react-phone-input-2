@@ -38,14 +38,23 @@ Follow these commands to run project successfully.
 
 ## Demo
 Firstly it look like this.
+
 ![My Image](src/assets/1.png)
+
 When we click on the dropdown, it show the list of countries.
+
 ![My Image](src/assets/first.png)
+
 we also have applied the validation
+
 ![My Image](src/assets/validation.png)
+
 when valiad number is added , the error message will be gone.
+
 ![My Image](src/assets/qq.png)
+
 The input number we get in this format. 
+
 ![My Image](src/assets/console.png)
 
 
