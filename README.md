@@ -75,6 +75,7 @@ For commit use prefixes in commit messages to provide context and clarity about 
 -   `Docs:` for documentation updates
 
 By following a consistent commit message convention, developers can efficiently track changes to the code and easily understand the history of modifications made over time.
+![My Image](src/assets/1.png)
 
 
 
