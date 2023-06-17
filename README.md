@@ -59,31 +59,7 @@ Follow these commands to run project successfully.
 
 
 
-## Contributing
 
-For contributions **greatly appreciated**.
-
-1. Clone the Project
-2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3. Commit your Changes (`git commit -m 'Add: NewFeature'`)
-4. Push to the Branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
-
-<!-- Commit -->
-
-## How to commit
-
-For commit use prefixes in commit messages to provide context and clarity about the changes made to the code. This convention involves using short, descriptive prefixes such as
-
--   `Add:` for new features
--   `Update:` for modifications to existing functionality
--   `Improvement:` for code improvements
--   `Fix:` for bug fixes
--   `Integration:` for integration
--   `Remove:` for deleting code or features
--   `Docs:` for documentation updates
-
-By following a consistent commit message convention, developers can efficiently track changes to the code and easily understand the history of modifications made over time.
 
 
 
