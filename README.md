@@ -72,20 +72,7 @@ For commit use prefixes in commit messages to provide context and clarity about 
 
 By following a consistent commit message convention, developers can efficiently track changes to the code and easily understand the history of modifications made over time.
 
-<!-- LICENSE -->
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-
-## Contact
-
-[https://creatachain.com/](https://github.com/magnusmage/creata-launch-a-chain)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 ```
 Copyright © 2021 — creatachain.com
