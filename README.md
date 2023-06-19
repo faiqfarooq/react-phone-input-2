@@ -11,8 +11,8 @@ Follow these commands to run project successfully.
     ```sh
     npm install npm@latest -g
     ```
+-   or if you want to add this into your project then install these
 
-    -   or if you want to add this into your project then install these
     ```sh
     npm install react-phone-number-input react-phone-input-2 formik
     ```
@@ -59,9 +59,9 @@ Follow these commands to run project successfully.
 
 
 
-## Contact
+## Live Demo
 
-[https://creatachain.com/](https://github.com/magnusmage/creata-launch-a-chain)
+[Click Here to see live ](https://react-phone-input-2.vercel.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
