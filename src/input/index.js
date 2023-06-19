@@ -5,7 +5,6 @@ import { useRef } from "react";
 import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { PhoneNumberValidation } from "../schema";
-import { isValidPhoneNumber } from "react-phone-number-input";
 import "react-phone-input-2/lib/style.css";
 import "react-phone-input-2/lib/high-res.css";
 import "./style.css";
@@ -69,8 +68,6 @@ function Phone() {
   };
   const [Focus, setFocus] = useState(false);
   const phoneInputRef = useRef(null);
-  const [selectCountry, setSelectCountry] = useState(true);
-  const [isValid, setIsValid] = useState(true);
 
   const handleClick = () => {
     if (phoneInputRef.current) {
@@ -80,16 +77,6 @@ function Phone() {
   };
   const handlePhoneNumberChange = async (value, country) => {
     formik.setFieldValue("phoneNumber", value);
-    try {
-      setSelectCountry(true);
-      if (isValidPhoneNumber(`+${value}`) === true) {
-        setIsValid(true);
-      } else {
-        setIsValid(false);
-      }
-    } catch (error) {
-      setSelectCountry(false);
-    }
   };
   const onSubmit = async (values) => {
     console.log(" formik", values);
@@ -128,8 +115,8 @@ function Phone() {
                 Enter your number
               </Typography>
               <PhoneInput
-                country={"us"}
-                onInpit
+                country={"kr"}
+                autoFormat={false}
                 value={formik.values.phoneNumber}
                 onChange={handlePhoneNumberChange}
                 onFocus={() => {
@@ -140,7 +127,7 @@ function Phone() {
                 inputProps={{
                   name: "mobile",
                   ref: phoneInputRef,
-                  style: { height: "56px", width: "100%", fontSize: "14px" },
+                  style: { height: "56px", width: "100%", fontSize: "1rem" },
                 }}
                 inputStyle={{
                   width: "300px", // Set the width of the input field
@@ -162,12 +149,6 @@ function Phone() {
                 <Typography style={ErrorTypo}>
                   {formik.errors.phoneNumber}
                 </Typography>
-              ) : !isValid ? (
-                <Typography style={ErrorTypo}>
-                  Phone number is invalid.
-                </Typography>
-              ) : !selectCountry ? (
-                <Typography style={ErrorTypo}>Select a country .</Typography>
               ) : null}
             </Box>
             <Button type="submit" variant="contained">
