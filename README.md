@@ -14,7 +14,7 @@ Follow these commands to run project successfully.
 -   or if you want to add this into your project then install these
 
     ```sh
-    npm install react-phone-number-input react-phone-input-2 formik
+    npm install libphonenumber-js react-phone-input-2 formik
     ```
     
 
